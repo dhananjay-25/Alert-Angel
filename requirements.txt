@@ -1,0 +1,7 @@
+tensorflow
+tensorflow_hub
+opencv-python
+pandas
+numpy
+yt_dlp
+moviepy
