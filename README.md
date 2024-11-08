@@ -9,12 +9,36 @@
 ## Repository Structure
 
 ```plaintext
-├── model implementation/
-│   ├── action_detection.py        # Script for running action detection using pretrained I3D
-├── data_processing/
-│   ├── video_preprocessing.py     # Utility functions for downloading and processing video segments
-├── config/
-│   ├── config.yaml                # Configuration for model parameters and video input paths
-├── main.py                        # Entry point to run the full pipeline
-├── README.md                      # Project documentation
-└── requirements.txt               # Python dependencies for easy setup
+├── Data Preprocessing/
+│   ├── data-preparation.ipynb       # Notebook for data preprocessing
+│   ├── download_videos.ipynb        # Notebook for downloading video segments
+|── dataset/                     # Folder containing processed dataset
+│   ├── filtered_train_data.csv  # Filtered training data
+│   └── filtered_val_data.csv    # Filtered validation data
+├── Model Implementation/
+│   └── implementation.ipynb         # Notebook for model implementation and inference
+├── .gitignore                       # Git ignore file
+├── LICENSE                          # Project license
+└── README.md                        # Project documentation
+
+```
+
+## Requirements
+Python 3.7 or higher
+Dependencies: See requirements.txt
+Getting Started
+Clone the Repository:
+
+bash
+git clone https://github.com/username/AlertAngel.git
+cd AlertAngel
+Install Dependencies:
+
+bash
+pip install -r requirements.txt
+Run Action Detection: The following command initiates the detection pipeline, which processes video segments and uses the pretrained I3D model for predictions.
+
+bash
+python main.py
+Configuration
+Edit config/config.yaml to specify paths and model parameters.
