@@ -23,10 +23,10 @@
 
 ```
 
-“Requirements ------------ * 
+* Requirements ------------ * 
 **Python**: 3.7 or higher * 
 **Dependencies**: See `requirements.txt` 
-Getting Started --------------- 
+* Getting Started --------------- *
 1. **Clone the Repository**: `git clone https://github.com/username/AlertAngel.git cd AlertAngel`
 2. **Install Dependencies**: `pip install -r requirements.txt`
 3. **Run Action Detection**: The following command initiates the detection which processes video segments and uses the pretrained I3D model for predictions.
